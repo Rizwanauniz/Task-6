@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default Values for Form Elements</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" value="John Doe"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value="johndoe@example.com"><br><br>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" value="1234567890"><br><br>
+        
+        <label for="address">Address:</label>
+        <textarea id="address" name="address">123 Main St, Anytown, USA</textarea><br><br>
+        
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        
+        <label for="language">Languages Spoken:</label><br>
+        <input type="checkbox" id="english" name="language" value="english" checked>
+        <label for="english">English</label><br>
+        <input type="checkbox" id="spanish" name="language" value="spanish">
+        <label for="spanish">Spanish</label><br>
+        <input type="checkbox" id="french" name="language" value="french" checked>
+        <label for="french">French</label><br><br>
+        
+        <label for="message">Additional Information:</label><br>
+        <textarea id="message" name="message">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
